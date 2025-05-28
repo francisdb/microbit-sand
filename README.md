@@ -43,3 +43,5 @@ cargo size -- -Ax
 https://www.youtube.com/@therustybits has a great video playlist on how to start with embedded rust development on a
 micro:bit. We started with https://www.youtube.com/watch?v=TOAynddiu5M
 
+There's also a microbit v2 discovery guide in the book on embedded rust
+development: https://docs.rust-embedded.org/discovery-mb2/
