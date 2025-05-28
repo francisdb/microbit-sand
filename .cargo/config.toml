@@ -1,0 +1,13 @@
+[build]
+target = "thumbv7em-none-eabihf"
+
+[target.thumbv7em-none-eabihf]
+runner = "probe-rs run --chip nRF52833_xxAA --no-location"
+rustflags = [
+    "-C", "link-arg=-Tlink.x",
+    #  "-C", "link-arg=-Tdefmt.x",
+]
+
+# does not seem to work
+#[alias]
+#run = "embed"
