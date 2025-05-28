@@ -1,6 +1,6 @@
 # microbit-sand
 
-Simple sand simulation for the BBC micro:bit v2.
+Simple sand simulation for the [BBC micro:bit v2](https://microbit.org/).
 
 The micro:bit v2 is a small, low-cost microcontroller board designed for education. It features a 5x5 LED matrix,
 buttons, and various sensors. This project demonstrates how to create a simple sand simulation using the micro:bit's
